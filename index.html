@@ -1,0 +1,1378 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Rosanna Spinedi – CV</title>
+
+  <meta
+    name="description"
+    content="CV von Rosanna Spinedi – Retail Sales, Customer Service, Warenwirtschaft, Operations und Teamführung."
+  />
+
+  <style>
+
+    :root{
+      --bg:#0f172a;
+      --panel:#111827;
+      --panel-soft:#172033;
+      --text:#f1f5f9;
+      --muted:#94a3b8;
+      --line:#1e293b;
+      --accent:#3b82f6;
+      --accent-2:#38bdf8;
+      --radius:18px;
+      --shadow:0 20px 50px rgba(0,0,0,.28);
+    }
+
+    *{
+      box-sizing:border-box;
+    }
+
+    html,body{
+      min-height:100%;
+    }
+
+    body{
+      margin:0;
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.55;
+      -webkit-font-smoothing:antialiased;
+      text-rendering:optimizeLegibility;
+    }
+
+    a{
+      color:inherit;
+      text-decoration:none;
+    }
+
+    .wrap{
+      max-width:1100px;
+      margin:0 auto;
+      padding:40px 20px 72px;
+    }
+
+    /* TOP BAR */
+
+    .top{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+
+    .brand{
+      display:flex;
+      align-items:center;
+      gap:12px;
+    }
+
+    .dot{
+      width:10px;
+      height:10px;
+      border-radius:999px;
+      background:linear-gradient(135deg,var(--accent),var(--accent-2));
+      box-shadow:0 0 0 4px rgba(59,130,246,.10);
+    }
+
+    .muted{
+      color:var(--muted);
+    }
+
+    .lang{
+      font-size:.9rem;
+      color:var(--muted);
+      display:flex;
+      align-items:center;
+      gap:8px;
+      user-select:none;
+    }
+
+    .btn{
+      border:1px solid var(--line);
+      background:#fff;
+      color:#0f172a;
+      border-radius:999px;
+      padding:8px 13px;
+      font-size:.9rem;
+      font-weight:600;
+      cursor:pointer;
+      transition:.15s ease;
+    }
+
+    .btn:hover{
+      transform:translateY(-1px);
+      box-shadow:0 10px 20px rgba(0,0,0,.18);
+    }
+
+    /* HERO */
+
+    .hero{
+      border:1px solid var(--line);
+      background:
+        linear-gradient(
+          180deg,
+          rgba(59,130,246,.07),
+          rgba(56,189,248,.02)
+        );
+
+      border-radius:var(--radius);
+      padding:24px;
+      box-shadow:var(--shadow);
+      position:relative;
+      overflow:hidden;
+    }
+
+    .hero::after{
+      content:"";
+      position:absolute;
+      right:-110px;
+      top:-120px;
+      width:280px;
+      height:280px;
+      border-radius:50%;
+      background:
+        radial-gradient(
+          circle at 30% 30%,
+          rgba(59,130,246,.22),
+          transparent 60%
+        );
+      pointer-events:none;
+    }
+
+    .hero-inner{
+      display:grid;
+      grid-template-columns:200px 1fr;
+      gap:30px;
+      align-items:center;
+      position:relative;
+      z-index:1;
+    }
+
+    .avatar{
+      width:200px;
+      height:200px;
+      border-radius:30px;
+      overflow:hidden;
+      border:1px solid rgba(255,255,255,.15);
+      box-shadow:0 20px 40px rgba(0,0,0,.45);
+      background:#eef4ff;
+    }
+
+    .avatar img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      object-position:center;
+      display:block;
+    }
+
+    h1{
+      margin:0;
+      font-size:2.35rem;
+      letter-spacing:-.7px;
+      line-height:1.1;
+    }
+
+    .sub{
+      margin-top:12px;
+      color:var(--muted);
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px 14px;
+      align-items:center;
+      font-size:.98rem;
+    }
+
+    .pill{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:7px 11px;
+      border-radius:999px;
+      background:#fff;
+      border:1px solid rgba(59,130,246,.25);
+      color:#0f172a;
+    }
+
+    .pill i{
+      width:8px;
+      height:8px;
+      border-radius:50%;
+      background:var(--accent);
+      display:inline-block;
+      box-shadow:0 0 0 4px rgba(59,130,246,.10);
+    }
+
+    /* MAIN GRID */
+
+    .grid{
+      margin-top:22px;
+      display:grid;
+      grid-template-columns:320px 1fr;
+      gap:18px;
+      align-items:start;
+    }
+
+    .card{
+      background:var(--panel);
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:18px;
+    }
+
+    /* SIDEBAR */
+
+    .left.card{
+      background:
+        linear-gradient(
+          180deg,
+          #1b2638,
+          #111827
+        );
+    }
+
+    @media(min-width:861px){
+      .left.card{
+        position:sticky;
+        top:18px;
+      }
+    }
+
+    .kicker{
+      font-size:.78rem;
+      letter-spacing:.12em;
+      text-transform:uppercase;
+      color:#60a5fa;
+      margin:0 0 10px;
+    }
+
+    .section-title{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      margin:0 0 12px;
+    }
+
+    .section-title h2{
+      margin:0;
+      font-size:1.05rem;
+      letter-spacing:-.2px;
+    }
+
+    .line{
+      height:1px;
+      flex:1;
+      background:
+        linear-gradient(
+          90deg,
+          rgba(59,130,246,.65),
+          rgba(56,189,248,.12),
+          transparent
+        );
+    }
+
+    /* TAGS */
+
+    .pills{
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      margin-top:8px;
+    }
+
+    .tag{
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid rgba(59,130,246,.30);
+      background:rgba(59,130,246,.09);
+      font-size:.86rem;
+      transition:.15s ease;
+    }
+
+    .tag:hover{
+      transform:translateY(-1px);
+      border-color:rgba(59,130,246,.55);
+      background:rgba(59,130,246,.14);
+    }
+
+    /* FACTS */
+
+    .facts{
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+      margin-top:10px;
+    }
+
+    .fact{
+      display:flex;
+      gap:10px;
+      align-items:flex-start;
+      padding:11px;
+      border-radius:14px;
+      border:1px solid rgba(148,163,184,.18);
+      background:rgba(255,255,255,.035);
+    }
+
+    .fact .icon{
+      width:31px;
+      height:31px;
+      border-radius:10px;
+      background:rgba(59,130,246,.12);
+      display:grid;
+      place-items:center;
+      flex:0 0 auto;
+    }
+
+    .fact .label{
+      font-size:.82rem;
+      color:var(--muted);
+      margin-bottom:2px;
+    }
+
+    .fact .value{
+      font-size:.92rem;
+      color:var(--text);
+      word-break:break-word;
+    }
+
+    /* CONTENT */
+
+    .block{
+      margin-bottom:22px;
+    }
+
+    .para{
+      margin:0;
+      color:var(--text);
+    }
+
+    .job{
+      padding:16px;
+      border-radius:16px;
+      border:1px solid rgba(148,163,184,.20);
+      background:var(--panel-soft);
+      margin-top:12px;
+      transition:.15s ease;
+    }
+
+    .job:hover{
+      transform:translateY(-1px);
+      border-color:rgba(59,130,246,.40);
+      box-shadow:0 14px 28px rgba(0,0,0,.15);
+    }
+
+    .job-head{
+      display:flex;
+      justify-content:space-between;
+      gap:12px;
+      flex-wrap:wrap;
+      align-items:baseline;
+    }
+
+    .job-title{
+      font-weight:700;
+      font-size:1.02rem;
+      letter-spacing:-.2px;
+    }
+
+    .job-meta{
+      color:var(--muted);
+      font-size:.9rem;
+      white-space:nowrap;
+    }
+
+    ul{
+      margin:10px 0 0;
+      padding-left:19px;
+    }
+
+    li{
+      margin:6px 0;
+    }
+
+    /* ANIMATIONS */
+
+    .reveal{
+      opacity:0;
+      transform:translateY(10px);
+      transition:
+        opacity .45s ease,
+        transform .45s ease;
+    }
+
+    .reveal.visible{
+      opacity:1;
+      transform:translateY(0);
+    }
+
+    .stagger li{
+      opacity:0;
+      transform:translateY(6px);
+    }
+
+    .stagger.visible li{
+      animation:rise .36s ease forwards;
+    }
+
+    .stagger.visible li:nth-child(1){animation-delay:.04s;}
+    .stagger.visible li:nth-child(2){animation-delay:.08s;}
+    .stagger.visible li:nth-child(3){animation-delay:.12s;}
+    .stagger.visible li:nth-child(4){animation-delay:.16s;}
+    .stagger.visible li:nth-child(5){animation-delay:.20s;}
+    .stagger.visible li:nth-child(6){animation-delay:.24s;}
+    .stagger.visible li:nth-child(7){animation-delay:.28s;}
+
+    @keyframes rise{
+      to{
+        opacity:1;
+        transform:translateY(0);
+      }
+    }
+
+    /* RESPONSIVE */
+
+    @media(max-width:860px){
+
+      .grid{
+        grid-template-columns:1fr;
+      }
+
+    }
+
+    @media(max-width:700px){
+
+      .wrap{
+        padding:24px 14px 50px;
+      }
+
+      .hero-inner{
+        grid-template-columns:1fr;
+      }
+
+      .avatar{
+        width:170px;
+        height:170px;
+      }
+
+      h1{
+        font-size:1.9rem;
+      }
+
+    }
+
+    @media(prefers-reduced-motion:reduce){
+
+      *{
+        animation:none !important;
+        transition:none !important;
+      }
+
+      .reveal{
+        opacity:1;
+        transform:none;
+      }
+
+      .stagger li{
+        opacity:1;
+        transform:none;
+      }
+
+    }
+
+    /* PRINT */
+
+    @media print{
+
+      .top{
+        display:none;
+      }
+
+      body{
+        background:white;
+        color:black;
+      }
+
+      .wrap{
+        padding:0;
+      }
+
+      .hero,
+      .card,
+      .job{
+        box-shadow:none;
+      }
+
+    }
+
+  </style>
+</head>
+
+<body>
+
+<div class="wrap">
+
+  <!-- TOP -->
+
+  <div class="top">
+
+    <div class="brand">
+      <div class="dot"></div>
+
+      <div
+        class="muted"
+        data-de="Professioneller Lebenslauf"
+        data-fr="Curriculum Vitae">
+      </div>
+    </div>
+
+    <div class="lang">
+
+      <span
+        data-de="Sprache"
+        data-fr="Langue">
+      </span>
+
+      <button
+        class="btn"
+        id="langBtn"
+        type="button"
+        aria-label="Sprache wechseln">
+        DE
+      </button>
+
+    </div>
+
+  </div>
+
+
+  <!-- HERO -->
+
+  <header class="hero reveal">
+
+    <div class="hero-inner">
+
+      <div class="avatar">
+
+        <!--
+        WICHTIG:
+        Lade später rosanna.png ins gleiche GitHub Repository.
+        -->
+
+        <img
+          src="rosanna.png"
+          alt="Rosanna Spinedi"
+        />
+
+      </div>
+
+
+      <div>
+
+        <h1>Rosanna Spinedi</h1>
+
+        <div class="sub">
+
+          <span class="pill">
+
+            <i></i>
+
+            <span
+              data-de="Retail Sales & Operations | Customer Service"
+              data-fr="Vente & Opérations Retail | Service Client">
+            </span>
+
+          </span>
+
+          <span class="muted">
+            Gampelen BE, Schweiz
+          </span>
+
+          <span class="muted">
+            +41 76 327 23 88 · rosi.spinedi1988@gmail.com
+          </span>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+  <div class="grid">
+
+
+    <!-- SIDEBAR -->
+
+    <aside class="left card reveal">
+
+      <p
+        class="kicker"
+        data-de="Überblick"
+        data-fr="Aperçu">
+      </p>
+
+
+      <div class="section-title">
+
+        <h2
+          data-de="Kernkompetenzen"
+          data-fr="Compétences clés">
+        </h2>
+
+        <div class="line"></div>
+
+      </div>
+
+
+      <div class="pills">
+
+        <span
+          class="tag"
+          data-de="Verkauf"
+          data-fr="Vente">
+        </span>
+
+        <span
+          class="tag"
+          data-de="Kundenberatung"
+          data-fr="Conseil clientèle">
+        </span>
+
+        <span
+          class="tag"
+          data-de="Warenwirtschaft"
+          data-fr="Gestion des marchandises">
+        </span>
+
+        <span
+          class="tag"
+          data-de="Teamführung"
+          data-fr="Gestion d'équipe">
+        </span>
+
+        <span class="tag">SAP</span>
+
+        <span
+          class="tag"
+          data-de="Bestellwesen"
+          data-fr="Gestion des commandes">
+        </span>
+
+        <span
+          class="tag"
+          data-de="Sales Analyse"
+          data-fr="Analyse des ventes">
+        </span>
+
+        <span
+          class="tag"
+          data-de="After Sales"
+          data-fr="Service après-vente">
+        </span>
+
+      </div>
+
+
+      <div style="height:20px"></div>
+
+
+      <!-- DETAILS -->
+
+      <div class="section-title">
+
+        <h2
+          data-de="Details"
+          data-fr="Détails">
+        </h2>
+
+        <div class="line"></div>
+
+      </div>
+
+
+      <div class="facts">
+
+
+        <div class="fact">
+
+          <div class="icon">📍</div>
+
+          <div>
+
+            <div
+              class="label"
+              data-de="Wohnort"
+              data-fr="Domicile">
+            </div>
+
+            <div class="value">
+              Gampelen BE, Schweiz
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="fact">
+
+          <div class="icon">💼</div>
+
+          <div>
+
+            <div
+              class="label"
+              data-de="Berufsfeld"
+              data-fr="Domaine">
+            </div>
+
+            <div
+              class="value"
+              data-de="Retail, Sales & Operations"
+              data-fr="Retail, Vente & Opérations">
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="fact">
+
+          <div class="icon">🌍</div>
+
+          <div>
+
+            <div
+              class="label"
+              data-de="Sprachen"
+              data-fr="Langues">
+            </div>
+
+            <div
+              class="value"
+              data-de="Deutsch · Französisch · Englisch"
+              data-fr="Allemand · Français · Anglais">
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="fact">
+
+          <div class="icon">🇨🇭</div>
+
+          <div>
+
+            <div
+              class="label"
+              data-de="Nationalität"
+              data-fr="Nationalité">
+            </div>
+
+            <div
+              class="value"
+              data-de="Schweiz · Heimatort Mendrisio TI"
+              data-fr="Suisse · Origine Mendrisio TI">
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </aside>
+
+
+
+    <!-- MAIN CONTENT -->
+
+    <main class="card reveal">
+
+
+      <!-- PROFILE -->
+
+      <div class="block">
+
+        <div class="section-title">
+
+          <h2
+            data-de="Profil"
+            data-fr="Profil">
+          </h2>
+
+          <div class="line"></div>
+
+        </div>
+
+
+        <p
+          class="para"
+          data-de="Erfahrene Detailhandelsfachfrau mit langjähriger Berufserfahrung in Verkauf, Kundenberatung, Warenwirtschaft und operativer Organisation. Fundierte Erfahrung in der Betreuung von Kunden und Handelspartnern, Bestellabwicklung, Sortimentsbewirtschaftung sowie Verkaufsanalyse. Führungserfahrung als stellvertretende Filial- und Abteilungsleiterin sowie als Abteilungsleiterin mit Verantwortung für Mitarbeiterplanung und Budgetierung."
+          data-fr="Professionnelle expérimentée du commerce de détail disposant de nombreuses années d’expérience dans la vente, le conseil à la clientèle, la gestion des marchandises et l’organisation opérationnelle. Expérience confirmée dans le suivi des clients et partenaires commerciaux, la gestion des commandes, l’assortiment et l’analyse des ventes. Expérience de management en tant qu’adjointe de responsable de magasin et de département ainsi que responsable de département, avec responsabilité de la planification du personnel et de la budgétisation.">
+        </p>
+
+      </div>
+
+
+
+      <!-- EXPERIENCE -->
+
+      <div class="block">
+
+        <div class="section-title">
+
+          <h2
+            data-de="Berufserfahrung"
+            data-fr="Expérience professionnelle">
+          </h2>
+
+          <div class="line"></div>
+
+        </div>
+
+
+        <!-- GIFI -->
+
+        <article class="job reveal">
+
+          <div class="job-head">
+
+            <div
+              class="job-title"
+              data-de="Verkaufsberaterin · GIFI SA"
+              data-fr="Conseillère de vente · GIFI SA">
+            </div>
+
+            <div class="job-meta">
+              2021 – heute
+            </div>
+
+          </div>
+
+
+          <ul class="stagger">
+
+            <li
+              data-de="Beratung und Unterstützung von Kunden"
+              data-fr="Conseil et accompagnement de la clientèle">
+            </li>
+
+            <li
+              data-de="Warenwirtschaft und Bestellung des gesamten Sortiments"
+              data-fr="Gestion des marchandises et commande de l’ensemble de l’assortiment">
+            </li>
+
+            <li
+              data-de="Entgegennahme, Registrierung und Bearbeitung von Bestellungen"
+              data-fr="Réception, enregistrement et traitement des commandes">
+            </li>
+
+            <li
+              data-de="Analyse der Verkäufe"
+              data-fr="Analyse des ventes">
+            </li>
+
+          </ul>
+
+        </article>
+
+
+
+        <!-- KTM -->
+
+        <article class="job reveal">
+
+          <div class="job-head">
+
+            <div
+              class="job-title"
+              data-de="Verkaufsberaterin & Produktverantwortliche · KTM"
+              data-fr="Conseillère de vente & Responsable produits · KTM">
+            </div>
+
+            <div class="job-meta">
+              2020 – 2021
+            </div>
+
+          </div>
+
+
+          <ul class="stagger">
+
+            <li
+              data-de="Beratung und Unterstützung von Kunden"
+              data-fr="Conseil et accompagnement de la clientèle">
+            </li>
+
+            <li
+              data-de="Produktverantwortung für Zusatzprodukte im Bike-Bereich"
+              data-fr="Responsabilité des produits complémentaires dans le secteur Bike">
+            </li>
+
+            <li
+              data-de="Warenwirtschaft und Bestellung des Produktsortiments"
+              data-fr="Gestion des marchandises et commandes de l’assortiment">
+            </li>
+
+            <li
+              data-de="Registrierung und Bearbeitung von Bestellungen"
+              data-fr="Enregistrement et traitement des commandes">
+            </li>
+
+            <li
+              data-de="Analyse der Verkäufe"
+              data-fr="Analyse des ventes">
+            </li>
+
+          </ul>
+
+        </article>
+
+
+
+        <!-- DISPOSITION -->
+
+        <article class="job reveal">
+
+          <div class="job-head">
+
+            <div
+              class="job-title"
+              data-de="Disponentin"
+              data-fr="Dispatcheuse / Coordinatrice logistique">
+            </div>
+
+            <div class="job-meta">
+              2019 – 2020
+            </div>
+
+          </div>
+
+
+          <ul class="stagger">
+
+            <li
+              data-de="Entgegennahme, Registrierung und Bearbeitung von Bestellungen"
+              data-fr="Réception, enregistrement et traitement des commandes">
+            </li>
+
+            <li
+              data-de="Koordination des Warenausgangs mit der Logistikabteilung"
+              data-fr="Coordination des expéditions avec le département logistique">
+            </li>
+
+            <li
+              data-de="Telefonische Unterstützung von Einzelhandelspartnern"
+              data-fr="Assistance téléphonique aux partenaires du commerce de détail">
+            </li>
+
+            <li
+              data-de="Unterstützung des After Sales Service"
+              data-fr="Soutien au service après-vente">
+            </li>
+
+          </ul>
+
+        </article>
+
+
+
+        <!-- DEPOT -->
+
+        <article class="job reveal">
+
+          <div class="job-head">
+
+            <div
+              class="job-title"
+              data-de="Stv. Filialleiterin · DEPOT AG"
+              data-fr="Adjointe responsable de magasin · DEPOT AG">
+            </div>
+
+            <div class="job-meta">
+              2018
+            </div>
+
+          </div>
+
+
+          <ul class="stagger">
+
+            <li
+              data-de="Beratung von Kunden"
+              data-fr="Conseil à la clientèle">
+            </li>
+
+            <li
+              data-de="Aufnahme und Bearbeitung von Bestellungen im SAP-System"
+              data-fr="Saisie et traitement des commandes dans SAP">
+            </li>
+
+            <li
+              data-de="Warenwirtschaft"
+              data-fr="Gestion des marchandises">
+            </li>
+
+            <li
+              data-de="Schichtleitung"
+              data-fr="Responsabilité de service">
+            </li>
+
+          </ul>
+
+        </article>
+
+
+
+        <!-- CONFORAMA -->
+
+        <article class="job reveal">
+
+          <div class="job-head">
+
+            <div
+              class="job-title"
+              data-de="Abteilungsleiterin Möbel · Conforama SA"
+              data-fr="Responsable du département meubles · Conforama SA">
+            </div>
+
+            <div class="job-meta">
+              2017 – 2018
+            </div>
+
+          </div>
+
+
+          <ul class="stagger">
+
+            <li
+              data-de="Beratung und Unterstützung von Kunden"
+              data-fr="Conseil et accompagnement de la clientèle">
+            </li>
+
+            <li
+              data-de="Bestellabwicklung im SAP-System"
+              data-fr="Traitement des commandes dans SAP">
+            </li>
+
+            <li
+              data-de="Warenwirtschaft und Schichtleitung"
+              data-fr="Gestion des marchandises et responsabilité de service">
+            </li>
+
+            <li
+              data-de="Planung der Mitarbeitenden der Abteilung"
+              data-fr="Planification des collaborateurs du département">
+            </li>
+
+            <li
+              data-de="Budgetierung"
+              data-fr="Budgétisation">
+            </li>
+
+            <li
+              data-de="Dekoration und Präsentation der Abteilung"
+              data-fr="Décoration et présentation du département">
+            </li>
+
+          </ul>
+
+        </article>
+
+
+
+        <!-- FLY -->
+
+        <article class="job reveal">
+
+          <div class="job-head">
+
+            <div
+              class="job-title"
+              data-de="Stv. Abteilungsleiterin · Conforama SA / FLY SA"
+              data-fr="Adjointe responsable de département · Conforama SA / FLY SA">
+            </div>
+
+            <div class="job-meta">
+              2012 – 2017
+            </div>
+
+          </div>
+
+
+          <ul class="stagger">
+
+            <li
+              data-de="Beratung und Unterstützung von Kunden"
+              data-fr="Conseil et accompagnement de la clientèle">
+            </li>
+
+            <li
+              data-de="Bestellabwicklung im SAP-System"
+              data-fr="Traitement des commandes dans SAP">
+            </li>
+
+            <li
+              data-de="Warenwirtschaft"
+              data-fr="Gestion des marchandises">
+            </li>
+
+            <li
+              data-de="Schichtleitung"
+              data-fr="Responsabilité de service">
+            </li>
+
+            <li
+              data-de="Dekoration der Abteilung"
+              data-fr="Décoration du département">
+            </li>
+
+          </ul>
+
+        </article>
+
+
+
+        <!-- CAFFE -->
+
+        <article class="job reveal">
+
+          <div class="job-head">
+
+            <div
+              class="job-title"
+              data-de="Gastronomiemitarbeiterin · Caffè Spettacolo, Flughafen Zürich"
+              data-fr="Collaboratrice en restauration · Caffè Spettacolo, Aéroport de Zurich">
+            </div>
+
+            <div class="job-meta">
+              2010 – 2012
+            </div>
+
+          </div>
+
+
+          <ul class="stagger">
+
+            <li
+              data-de="Gästebetreuung in einem dynamischen internationalen Umfeld"
+              data-fr="Accueil et service des clients dans un environnement international dynamique">
+            </li>
+
+          </ul>
+
+        </article>
+
+      </div>
+
+
+
+      <!-- EDUCATION -->
+
+      <div class="block">
+
+        <div class="section-title">
+
+          <h2
+            data-de="Ausbildung"
+            data-fr="Formation">
+          </h2>
+
+          <div class="line"></div>
+
+        </div>
+
+
+        <article class="job reveal">
+
+          <div class="job-head">
+
+            <div
+              class="job-title"
+              data-de="Detailhandelsfachfrau · Conforama SA"
+              data-fr="Formation professionnelle dans le commerce de détail · Conforama SA">
+            </div>
+
+            <div class="job-meta">
+              2007 – 2010
+            </div>
+
+          </div>
+
+
+          <ul class="stagger">
+
+            <li
+              data-de="Verkaufsberatung und Verkaufsmethoden"
+              data-fr="Conseil de vente et méthodes de vente">
+            </li>
+
+            <li
+              data-de="Warenwirtschaft und Bestellwesen"
+              data-fr="Gestion des marchandises et commandes">
+            </li>
+
+            <li
+              data-de="Bedarfsanalyse und Verkaufsförderungsmassnahmen"
+              data-fr="Analyse des besoins et mesures de promotion des ventes">
+            </li>
+
+            <li
+              data-de="Training Kasse & Backoffice"
+              data-fr="Formation caisse & back-office">
+            </li>
+
+          </ul>
+
+        </article>
+
+      </div>
+
+
+
+      <!-- LANGUAGES -->
+
+      <div class="block">
+
+        <div class="section-title">
+
+          <h2
+            data-de="Sprachen"
+            data-fr="Langues">
+          </h2>
+
+          <div class="line"></div>
+
+        </div>
+
+
+        <article class="job reveal">
+
+          <ul class="stagger">
+
+            <li
+              data-de="Deutsch – Muttersprache"
+              data-fr="Allemand – langue maternelle">
+            </li>
+
+            <li
+              data-de="Französisch – mündlich exzellent, schriftlich sehr gut"
+              data-fr="Français – excellent à l’oral, très bon à l’écrit">
+            </li>
+
+            <li
+              data-de="Englisch – mündlich und schriftlich sehr gut"
+              data-fr="Anglais – très bon à l’oral et à l’écrit">
+            </li>
+
+          </ul>
+
+        </article>
+
+      </div>
+
+
+    </main>
+
+  </div>
+
+</div>
+
+
+<script>
+
+  /* ================================
+     LANGUAGE SWITCH
+  ================================= */
+
+  let lang = "de";
+
+  function applyLang(){
+
+    document
+      .querySelectorAll("[data-de]")
+      .forEach(el => {
+
+        el.textContent = el.dataset[lang];
+
+      });
+
+    document
+      .getElementById("langBtn")
+      .textContent = lang.toUpperCase();
+
+    document.documentElement.lang = lang;
+
+  }
+
+
+  document
+    .getElementById("langBtn")
+    .addEventListener("click", () => {
+
+      lang = (lang === "de") ? "fr" : "de";
+
+      applyLang();
+
+    });
+
+
+
+  /* ================================
+     SCROLL ANIMATIONS
+  ================================= */
+
+  const revealEls =
+    Array.from(
+      document.querySelectorAll(".reveal, .stagger")
+    );
+
+
+  const observer =
+    new IntersectionObserver(
+
+      entries => {
+
+        entries.forEach(entry => {
+
+          if(entry.isIntersecting){
+
+            entry.target
+              .classList
+              .add("visible");
+
+          }
+
+        });
+
+      },
+
+      {
+        threshold:.10
+      }
+
+    );
+
+
+  revealEls.forEach(el => observer.observe(el));
+
+
+  applyLang();
+
+</script>
+
+</body>
+</html>
